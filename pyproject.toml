@@ -1,0 +1,11 @@
+[project]
+name = "mcp_calc"
+version = "0.1"
+description = "A simple calculator MCP server"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[server]>=1.0.0",
+]
+
+[project.scripts]
+mcp-calc = "calc_server:app"
